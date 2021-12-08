@@ -1,0 +1,60 @@
+body{
+	font-size:90%;
+    background-color: #fce2df;
+    font-family: 'Lora', serif;
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+	font-size: 32px;
+	font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin:1%;
+	padding:1%;
+}
+
+nav, footer{
+	margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav li{
+	border:10px solid #978785;
+	display: inline-block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav li .current{
+    background-color: #978785;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+a:visited {
+    color: black;
+    font-weight: bold;
+  }
+
+  /* Start Grid Code Here */
+  .container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
